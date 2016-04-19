@@ -1,9 +1,10 @@
 # twitter_bus_alert
 A bus allert waiting for a button on Raspberry Pi
 
-[!Image of Raspberry Pi](https://github.com/ultcyber/twitter_bus_alert/blob/master/IMG_0030.JPG)
+[[https://github.com/ultcyber/twitter_bus_alert/blob/master/IMG_0030.jpg|alt="Raspberry Pi"]]
 
-[!Different view](https://github.com/ultcyber/twitter_bus_alert/blob/master/IMG_0031.JPG)
+
+[[https://github.com/ultcyber/twitter_bus_alert/blob/master/IMG_0031.jpg|alt="Different view"]]
 
 This little Python script triggers a alert for your nearest bus stop (the ZTM url needs to be updated for a different bus and bus stop.
 
