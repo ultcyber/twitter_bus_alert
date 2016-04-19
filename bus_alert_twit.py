@@ -54,11 +54,11 @@ def is_disconnected(REMOTE_SERVER):
 def sendMessage(message, user):
 
   # Send a private twitter message to the user
-  consumer_key = '0Omhyk50WW7q1PNUlNZbjaelf'
-  consumer_secret = 'FRUxyM3gnXRM1cjdDmMUj5cGCZEOGH2FUPoJafg19VjuVd3G8w'
+  consumer_key = 'put in the consumer key'
+  consumer_secret = 'put in the consumer secret '
 
-  access_token = '705390766139514880-TdUonzscZ2Y7jesE3PxXcaY8gdayy3L'
-  access_token_secret = 'TWVm3c8ItcpPXgyMnmNzh2xrOEtu1NVC9a9hg8G6YLDiW'
+  access_token = 'put in the access token'
+  access_token_secret = 'put in the access token secret'
   
 
   auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -89,11 +89,8 @@ def waitButton():
 
   GPIO.wait_for_edge(18, GPIO.RISING)
   print("Button pressed")
-  sendMessage(nextBus("185"), '@Sedov00')
-  sendMessage(nextBus("179"), '@Sedov00')
-
-  sendMessage(nextBus("185"), '@JusPiTr')
-  sendMessage(nextBus("179"), '@JusPiTr')
+  sendMessage(nextBus("185"), '@Twitter_account_to_receive_the_message')
+  sendMessage(nextBus("179"), '@Twitter_account_to_receive_the_message')
 
 if __name__ == '__main__':
   main()
